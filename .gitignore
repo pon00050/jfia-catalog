@@ -1,0 +1,14 @@
+# Knowledge layer (private thinking — never commit)
+knowledge/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Tool caches
+.claude/
+.obsidian/
