@@ -30,6 +30,15 @@ python JFIA_metadata_scraper.py
 
 Output overwrites `jfia_catalog.json`.
 
+## Known Gaps
+
+| Gap | Why | Status |
+|-----|-----|--------|
+| 106/469 articles (22.6%) missing abstracts | HTML layout variation across 17-year archive (4+ layouts) | Unblocked — scraper improvement |
+| 227/469 articles (48.4%) missing keywords | Same cause | Unblocked — scraper improvement |
+| 51/469 articles (10.9%) missing authors | Same cause | Unblocked — scraper improvement |
+| `ISSUES` list is hardcoded — no automated discovery of new volumes | Manual update required when Vol.18+ appears | By design |
+
 ## Conventions
 
 - This is a data artifact, not an installable Python package
