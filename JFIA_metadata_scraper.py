@@ -6,10 +6,10 @@ all 46 issues of the Journal of Forensic and Investigative Accounting (2009-2025
 
 No PDFs are downloaded -- only the freely-accessible metadata on each issue page.
 
-Output: jfia_data/jfia_catalog.json
+Output: jfia_catalog.json (written to the same directory as this script)
 
 Usage:
-    python jfia_data/JFIA_metadata_scraper.py
+    python JFIA_metadata_scraper.py
 """
 
 import json

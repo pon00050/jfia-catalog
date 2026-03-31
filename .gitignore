@@ -10,5 +10,4 @@ __pycache__/
 .env
 
 # Tool caches
-.claude/
 .obsidian/
