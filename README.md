@@ -1,5 +1,7 @@
 # jfia-catalog
 
+**[Read the full write-up →](https://ronanwrites.vercel.app/manuals/jfia-catalog-469-articles)**
+
 The only structured index of all 469 articles published in the
 [Journal of Forensic & Investigative Accounting (JFIA)](https://jfiaonline.com),
 2009–2025.
@@ -51,7 +53,7 @@ and related topics. 469 articles across 46 issues, 2009–2025.
 | Issues | 46 |
 | Date range | 2009–2025 |
 | Articles with abstracts | 363 |
-| Articles with keywords | ~400 |
+| Articles with keywords | 242 |
 
 ## Usage
 
@@ -80,7 +82,7 @@ For richer search and detectlet schema integration, see the
 [jfia-forensic](https://github.com/pon00050/jfia-forensic) package:
 
 ```bash
-pip install jfia-forensic
+uv add git+https://github.com/pon00050/jfia-forensic
 ```
 
 ```python

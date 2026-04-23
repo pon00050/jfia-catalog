@@ -81,3 +81,8 @@ pytest tests/ -v
 - `jfia_catalog.json` is committed (it's the deliverable)
 - Scraper dependencies: `pip install requests beautifulsoup4` (or install from requirements.txt)
 - Tests validate the committed JSON only — they do not run the scraper
+
+
+---
+
+**Domain knowledge** (regulatory analysis, buyer research, competitive intelligence, legal compliance) belongs in the hub vault: `forensic-accounting-toolkit/knowledge/`. Engineering docs (API patterns, test strategies, run logs) stay here. After creating a new domain knowledge note, copy it to the hub with gold-standard frontmatter. See hub `CLAUDE.md` §Knowledge Vault for the frontmatter contract.
